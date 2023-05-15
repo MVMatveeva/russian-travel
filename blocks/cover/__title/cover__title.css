@@ -9,11 +9,13 @@
     color: #FFFFFF;
 
 }
+
 @media screen and (max-width:767px) {
     .cover__title {
         font-size: 9.375vh;
     }
 }
+
 @media screen and (max-width:319px) {
     .cover__title {
         font-size: 10vw;
