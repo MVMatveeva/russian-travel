@@ -1,0 +1,20 @@
+.place__paragraph {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 163%;
+    text-align: left;
+    margin-top: 0;
+    word-wrap: break-word;
+}
+
+@media screen and (max-width:319px) {
+    .place__paragraph {
+        font-size: 16px;
+        line-height: 163%;
+        max-width: 288px;
+    }
+}
+
+.place__paragraph:nth-child(2) {
+    margin-top: 26px;
+}
