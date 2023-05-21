@@ -4,9 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./vendor/normalize.css">
   <link rel="stylesheet" href="./pages/index.css">
-  <link rel="font" href="style.css">
   <title>Путешествия по России</title>
 </head>
 
@@ -14,12 +12,12 @@
   <div class="page">
     <header class="header">
       <img class="header__logo" src="images/__logo.svg" alt="Россия">
-      <a class="header__link" href="#">Ru</a>
-      <a class="header__link" href="#">En</a>
+      <a class="header__link_active" href="#">Ru</a>
+      <a class="header__link" href="#" lang="en">En</a>
     </header>
     <main class="content">
       <section class="lead">
-        <h2 class="lead__title">Путешествия по России</h2>
+        <h1 class="lead__title">Путешествия по&nbsp;России</h1>
         <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
         <img class="lead__image" src="images/lead.png" alt="Девушка в поезде">
         <p class="lead__caption">ваша полка — верхняя</p>
@@ -40,7 +38,7 @@
           <li>Аэропортов <span class="intro__span">241</span></li>
         </ul>
       </section>
-      <div class="photo">
+      <section class="photo">
         <img class="photo__item" src="images/__item.png" alt="Окно в поезде">
         <img class="photo__item" src="images/__item(1).png" alt="Заснеженные горы">
         <img class="photo__item" src="images/__item(2).png" alt="Стоги сена в утреннем поле">
@@ -53,13 +51,14 @@
         <img class="photo__item" src="images/__item(9).png" alt="Гора">
         <img class="photo__item" src="images/__item(10).png" alt="Заснеженный плzж">
         <img class="photo__item" src="images/__item(11).png" alt="Плато">
-      </div>
+      </section>
       <section class="places">
         <div class="place">
           <h2 class="place__title">Куршская коса</h2>
           <div class="place__website">
             <p class="place__url-heading">URL</p>
-            <a class="place__link" href="http://park-kosa.ru">http://park-kosa.ru</a>
+            <a class="place__link" href="http://park-kosa.ru" target="_blank"
+              rel="noopener noreferrer">http://park-kosa.ru</a>
           </div>
           <img class="place__image" src="images/__image.png" alt="Куршская коса">
           <div class="place__paragraphs">
@@ -77,7 +76,8 @@
           <h2 class="place__title">Кольский</h2>
           <div class="place__website">
             <p class="place__url-heading">URL</p>
-            <a class="place__link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy">National
+            <a class="place__link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
+              target="_blank" rel="noopener noreferrer">National
               Geographic</a>
           </div>
           <img class="place__image" src="images/__image(1).png" alt="Кольский">
@@ -97,7 +97,8 @@
           <h2 class="place__title">Алтай</h2>
           <div class="place__website">
             <p class="place__url-heading">URL</p>
-            <a class="place__link" href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ">YouTube</a>
+            <a class="place__link" href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ" target="_blank"
+              rel="noopener noreferrer">YouTube</a>
           </div>
           <img class="place__image" src="images/__image(2).png" alt="Алтай">
           <div class="place__paragraphs">
@@ -115,7 +116,8 @@
           <h2 class="place__title">Зимний Байкал</h2>
           <div class="place__website">
             <p class="place__url-heading">URL</p>
-            <a class="place__link" href="https://vk.com/baikalmile">https://vk.com/baikalmile</a>
+            <a class="place__link" href="https://vk.com/baikalmile" target="_blank"
+              rel="noopener noreferrer">https://vk.com/baikalmile</a>
           </div>
           <img class="place__image" src="images/__image(3).png" alt="Зимний Байкал">
           <div class="place__paragraphs">
@@ -133,7 +135,8 @@
           <h2 class="place__title">Карелия</h2>
           <div class="place__website">
             <p class="place__url-heading">URL</p>
-            <a class="place__link" href=" http://vodlozero.ru">http://vodlozero.ru/</a>
+            <a class="place__link" href=" http://vodlozero.ru" target="_blank"
+              rel="noopener noreferrer">http://vodlozero.ru/</a>
           </div>
           <img class="place__image" src="images/__image(4).png" alt="Карелия">
           <div class="place__paragraphs">
@@ -147,20 +150,25 @@
         </div>
       </section>
       <section class="cover">
-        <a class="cover__overlay" href="https://stampsy.com/na-elektrichkakh-do-baikala">
+        <a class="cover__overlay" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank"
+          rel="noopener noreferrer">
           <h2 class="cover__title"> До Байкала «на собаках»</h2>
           <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на
             электричках.</p>
         </a>
       </section>
     </main>
-    <footer class="footer">
-      <a class="footer__link" href="https://yandex.ru/maps">Карты</a>
-      <a class="footer__link" href="https://yandex.ru/pogoda">Погода</a>
-      <a class="footer__link" href="https://rasp.yandex.ru">Расписание</a>
-      <a class="footer__link" href="https://calendar.yandex.ru">Календарь</a>
-      <a class="footer__link" href="https://travel.yandex.ru">Путешествия</a>
-      <p class="footer__copyright">&copy;2023. Мария Матвеева</p>
+    <footer>
+      <nav class="footer">
+        <div class="footer__links">
+          <a class="footer__link" href="https://yandex.ru/maps">Карты</a>
+          <a class="footer__link" href="https://yandex.ru/pogoda">Погода</a>
+          <a class="footer__link" href="https://rasp.yandex.ru">Расписание</a>
+          <a class="footer__link" href="https://calendar.yandex.ru">Календарь</a>
+          <a class="footer__link" href="https://travel.yandex.ru">Путешествия</a>
+        </div>
+        <p class="footer__copyright">&copy;2023. Мария Матвеева</p>
+      </nav>
     </footer>
   </div>
 </body>

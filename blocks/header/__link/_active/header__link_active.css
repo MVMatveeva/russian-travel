@@ -1,19 +1,18 @@
-.header__link {
+.header__link_active {
     display: flex;
     line-height: 28px;
     font-size: 24px;
     font-weight: 400;
+    text-decoration: underline;
     max-width: 30px;
+    margin-left: auto;
     color: #FFFFFF;
-    text-decoration: none;
-    margin-left: 18px;
-    margin-right: 0;
     margin-top: 18px;
 
 }
 
 @media screen and (max-width:319px) {
-    .header__link {
+    .header__link_active {
         max-width: 22px;
         font-size: 18px;
         line-height: 92%;
@@ -21,8 +20,7 @@
     }
 }
 
-
-.header__link:hover {
+.header__link_active:hover {
     color: #FFFFFF;
     opacity: 0.8;
     transition: opacity 3s ease;

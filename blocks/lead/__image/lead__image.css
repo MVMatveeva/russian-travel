@@ -1,8 +1,8 @@
 .lead__image {
-    max-width: 984px;
-    min-height: 615px;
+    max-width: 76.875vw;
     margin: 0 auto 8px;
-    display: grid;
+    display: block;
+    object-fit: cover;
 }
 
 @media screen and (max-width:1023px) {
@@ -16,8 +16,6 @@
 @media screen and (max-width:767px) {
     .lead__image {
         max-width: 768px;
-        min-height: auto;
-        width: 100vw;
     }
 }
 
@@ -25,7 +23,5 @@
 @media screen and (max-width:319px) {
     .lead__image {
         max-width: 320px;
-        min-height: auto;
-        width: 100vw;
     }
 }

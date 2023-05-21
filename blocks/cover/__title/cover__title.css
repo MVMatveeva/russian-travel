@@ -1,12 +1,13 @@
 .cover__title {
     font-size: 72px;
-    line-height: 87%;
+    line-height: 76px;
     font-weight: 900;
     text-align: center;
-    margin: 245px auto 32px;
+    margin: 0 auto 32px;
+    padding-top: 245px;
     max-width: 560px;
-    min-height: 152px;
     color: #FFFFFF;
+    z-index: 2;
 
 }
 
@@ -20,8 +21,8 @@
     .cover__title {
         font-size: 10vw;
         line-height: 90%;
-        margin: 33px auto 16px;
+        margin: 0 auto 16px;
         max-width: 288px;
-        min-height: 70px;
+        padding-top: 33px;
     }
 }

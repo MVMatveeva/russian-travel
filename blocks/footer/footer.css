@@ -4,8 +4,8 @@
     margin-left: auto;
     margin-right: auto;
     width: 92.5%;
-    min-height: 18px;
     margin: 92px auto 24px;
+    justify-content: space-between;
 }
 
 @media screen and (max-width:1023px) {
@@ -19,8 +19,9 @@
         max-width: 720px;
     }
 }
-@media screen and (max-width:600px) {
-    .footer{
+
+@media screen and (max-width:690px) {
+    .footer {
         flex-direction: column;
         margin-top: 64px;
     }
