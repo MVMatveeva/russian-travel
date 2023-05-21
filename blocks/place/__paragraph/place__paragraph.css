@@ -6,7 +6,7 @@
     margin-top: 0;
     margin-bottom: 0;
 }
-@media screen and (max-width:767pxpx) {
+@media screen and (max-width:767px) {
     .place__paragraph {
         font-size: 16px;
         line-height: 26px;
