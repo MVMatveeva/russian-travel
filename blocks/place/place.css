@@ -4,20 +4,21 @@
     gap: 48px 40px;
 }
 
-@media screen and (max-width:1023px) {
+@media screen and (max-width:1024px) {
     .place {
+        grid-template-columns: 42.968vw 1fr;
         gap: 48px 32px;
     }
 }
 
-@media screen and (max-width:767px) {
+@media screen and (max-width:768px) {
     .place {
-        grid-template-columns: 44.328vw 46.194vw;
+        grid-template-columns: 44.270vw 1fr;
         gap: 48px 28px;
     }
 }
 
-@media screen and (max-width:319px) {
+@media screen and (max-width:320px) {
     .place {
         grid-template-columns: repeat(1, 1fr);
         row-gap: 32px;

@@ -5,20 +5,20 @@
     margin: 0 auto 0;
 }
 
-@media screen and (max-width:1023px) {
+@media screen and (max-width:1024px) {
     .page {
-        max-width: 1023px;
+        max-width: 1024px;
     }
 }
 
-@media screen and (max-width:767px) {
+@media screen and (max-width:768px) {
     .page {
-        max-width: 767px;
+        max-width: 765px;
     }
 }
 
-@media screen and (max-width:319px) {
+@media screen and (max-width:320px) {
     .page {
-        max-width: 319px;
+        max-width: 320px;
     }
 }

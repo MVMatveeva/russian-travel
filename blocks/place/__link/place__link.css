@@ -5,6 +5,16 @@
     line-height: 22px;
     text-align: left;
 }
+@media screen and (max-width:768px) {
+    .place__link {
+        font-size: 2.343vw;
+    }
+}
+@media screen and (max-width:320px) {
+    .places {
+        font-size: 18px;
+    }
+}
 
 .place__link:hover {
     opacity: 0.8;
