@@ -48,11 +48,6 @@
     height: 100%;
 }
 
-.cover__overlay:hover::after {
-    position: absolute;
-    content: "";
-    background-color: rgb(42, 44, 47);
+.cover__overlay:hover::before {
     opacity: .8;
-    width: 100%;
-    height: 100%;
 }

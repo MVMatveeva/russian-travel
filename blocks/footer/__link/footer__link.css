@@ -20,6 +20,12 @@
     margin-right: 0;
 }
 
+@media screen and (max-width:320px) {
+    .footer__link:nth-child(5) {
+        margin-bottom: 0;
+    }
+}
+
 .footer__link:hover {
     opacity: .8;
     transition: opacity 0.5s ease;

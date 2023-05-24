@@ -18,7 +18,6 @@
     .lead__subtitle {
         max-width: 83.33vw;
         font-size: 3.9vw;
-        min-height: auto;
         line-height: 99%;
     }
 }
